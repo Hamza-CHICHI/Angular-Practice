@@ -1,0 +1,14 @@
+{
+    "users":[
+        {
+            "id":1,
+            "name" : "Hamza Chichi",
+            "active": false
+        },
+        {
+            "id":2,
+            "name" : "Ahmed Ait Lahcen",
+            "active": false
+        }
+    ]
+}
