@@ -1,8 +1,11 @@
 # AngularPractice
 
 ## About this mini-project
+---
 
-This is just an small app that consists on _displaying/adding/editing/removing_ users from a lite database (**_JSON Server_**) using Angular 11
+This is just an small app that consists on _displaying/adding/editing/removing_ users from a lite database (**_JSON Server_**) using Angular 11.0.2
+
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
