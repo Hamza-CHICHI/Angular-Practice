@@ -9,6 +9,11 @@
             "id":2,
             "name" : "Ahmed Ait Lahcen",
             "active": false
+        },
+        {
+            "id":3,
+            "name" : "Mouslim Ait-ssi",
+            "active": false
         }
     ]
 }

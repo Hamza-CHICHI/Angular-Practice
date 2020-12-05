@@ -15,11 +15,15 @@
       <div class="form-group">
         <label for="label"><i class="fa fa-search"></i> Add</label>
         <input
+          [(ngModel)]="name"
           type="text"
           id="label"
           class="form-control"
           placeholder="Add new user"
         />
+      </div>
+      <div class="d-flex justify-content-center">
+        <h2>{{ name }}</h2>
       </div>
 
       <div class="form-check">
@@ -36,6 +40,18 @@
   </div>
 
   <div class="row">
-    <div class="col-md-6 mx-auto">List of users</div>
+    <div class="col-md-6 mx-auto">
+      <ul class="list-group">
+        <li
+          *ngFor="let user of users"
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          {{ user.name }}
+          <span class="badge badge-secondary badge-pill">{{
+            user.active
+          }}</span>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
